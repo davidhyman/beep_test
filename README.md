@@ -36,7 +36,12 @@ level,length,start,recovery,clock time
 
 ## Usage
 
-* demo / bool / enumerates voices available to `pyttsx3`
+cli args:
+
+* do_voice_demo / `bool` / enumerates voices available to `pyttsx3`
+* play_track / `bool` / plays the end result (and a demo, if combined)
+* input_filepath / `Path` / an input CSV
+* version_name / `str` / the output name, used for filename and audio 'fingerprint'
 
 ```shell
 beeper no yes "input_file.csv" "output version 1"
